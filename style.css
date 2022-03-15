@@ -1,0 +1,37 @@
+/* *{
+    margin: 7px;
+} */
+
+body{
+    font: 20px Arial, sans-serif;
+}
+
+.navbar{
+    background-image: linear-gradient(90deg, #e52d27, #b31217);
+}
+
+.sobre{
+    background-color: rgb(190, 190, 190);
+    color: white;
+}
+
+.margin{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.historia{
+    background-color: rgb(240, 46, 46);
+    color: white;
+}
+
+
+.titulos{
+    background-color: rgb(190, 190, 190);
+    color: white;
+}
+
+.bg-footer{
+    background-color: rgb(240, 46, 46);
+    color: white;
+}

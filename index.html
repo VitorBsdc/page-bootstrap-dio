@@ -1,12 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+<html lang="pt-br">
+  <head>
+    <title>Page Bootstrap - DIO</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="pages/" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="bootstrap/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fw-bold">
+      <a class="navbar-brand" href="#"
+        ><img src="img/logo-spfc.jpg" alt="Logo navbar" width="90" height="80"
+      /></a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a
+              class="nav-link active text-white"
+              href="pages/about.html"
+              target="_blank"
+              >Sobre</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="pages/history.html"
+              target="_blank"
+              >História</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link text-white"
+              href="pages/titles.html"
+              target="_blank"
+              >Títulos</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id="sobre">
+      <div class="container-fluid sobre text-center margin">
+        <h3 class="margin">Sobre</h3>
+        <img
+          src="img/img-sobre.jpg"
+          alt="Img sobre"
+          class="rounded-circle"
+          width="310"
+          height="300"
+        />
+        <h3 class="margin">
+          Somos um clube fundado em 25 de janeiro de 1930....
+        </h3>
+      </div>
+    </section>
+
+    <section id="historia">
+      <div class="container-fluid historia text-center margin">
+        <h3 class="margin">História</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <img
+                src="img/img1-historia.jpg"
+                alt="img1-historia"
+                width="100%"
+              />
+              <h6>A partir do Club Atletico Paulistano nasce o SP...</h6>
+            </div>
+            <div class="col-lg-4">
+              <img
+                src="img/img1-historia.jpg"
+                alt="img2-historia"
+                width="100%"
+              />
+              <h6>
+                Com a participação do Clube das Palmeiras também, nasce o SP...
+              </h6>
+            </div>
+            <div class="col-lg-4">
+              <img
+                src="img/img1-historia.jpg"
+                alt="img3-historia"
+                width="100%"
+              />
+              <h6>
+                Por fim o time com o coração de 5 pontas enfim nasce a partir da
+                junção de duas equipes da epóca...
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="titulos">
+      <div class="container-fluid titulos text-center margin">
+        <h3 class="margin">Títulos</h3>
+        <div class="container">
+          <div class="row margin">
+            <div class="col-lg-6">
+              <img src="img/img1-titulos.jpg" alt="img1-titulos" width="100%" />
+            </div>
+            <div class="col-lg-6">
+              <img src="img/img2-titulos.jpg" alt="img2-titulos" width="100%" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container-fluid text-center bg-footer margin">
+        <p>Desenvolvido por Vitor Benedito</p>
+    </footer>
+  </body>
 </html>
