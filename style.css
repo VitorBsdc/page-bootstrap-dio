@@ -6,26 +6,27 @@ body{
     font: 20px Arial, sans-serif;
 }
 
-.navbar{
+.navbar{/*Header*/
     background-image: linear-gradient(90deg, #e52d27, #b31217);
+    padding: 10px 20px;
+
+}
+.logo-header{
+    border-radius: 10px;
+}
+.nav-link:hover{
+    font-size: 23px;
+    transition: 1s ease all;
 }
 
 .sobre{
     background-color: rgb(190, 190, 190);
     color: white;
 }
-
-.margin{
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
 .historia{
     background-color: rgb(240, 46, 46);
     color: white;
 }
-
-
 .titulos{
     background-color: rgb(190, 190, 190);
     color: white;
@@ -34,4 +35,9 @@ body{
 .bg-footer{
     background-color: rgb(240, 46, 46);
     color: white;
+}
+
+.margin{
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
