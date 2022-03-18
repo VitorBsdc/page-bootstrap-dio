@@ -1,10 +1,9 @@
-/* *{
-    margin: 7px;
-} */
-
-body{
-    font: 20px Arial, sans-serif;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+
 
 .navbar{/*Header*/
     background-image: linear-gradient(90deg, #e52d27, #b31217);
@@ -19,7 +18,9 @@ body{
     transition: 1s ease all;
 }
 
-.sobre{
+
+
+.sobre{/*Section's*/
     background-color: rgb(190, 190, 190);
     color: white;
 }
@@ -27,17 +28,53 @@ body{
     background-color: rgb(240, 46, 46);
     color: white;
 }
+.img-historia{
+    max-width: 60%;
+    padding: 10px;
+}
+.title{
+    padding: 10px;
+    font-weight: 700;
+}
+h6{
+    text-align: justify;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+
 .titulos{
     background-color: rgb(190, 190, 190);
     color: white;
 }
-
-.bg-footer{
-    background-color: rgb(240, 46, 46);
-    color: white;
+.title-main{
+    font-size: 50px;
 }
 
-.margin{
+
+
+.margin{/*Margin geral*/
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+
+
+footer{/*Footer configs*/
+    background-color: rgb(233, 48, 48);
+    display: flex;/*Flexivilidade da div*/
+    flex-direction: row;/*Direção em linhas dos elementos*/
+    align-items: center;/*Alinhamento no eixo x*/
+    justify-content: center;/*Alinhamento no eixo y*/
+    padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+p{
+    margin: 0px;
+}
+.img-footer{
+    margin-left: 10px;
 }
