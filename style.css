@@ -80,13 +80,13 @@
 }
 .img-titulos{
     margin: 20px;
-    width: 100%;
-    height: 90%;
+    max-width: 100%;
+    max-height: 90%;
     border-radius: 5px;
 }
 .img-titulos:hover{
-    width: 103%;
-    height: 93%;
+    max-width: 103%;
+    max-height: 93%;
     transition: 2s ease all;
 }
 .table{
