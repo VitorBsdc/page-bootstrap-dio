@@ -6,54 +6,104 @@
 
 
 .navbar{/*Header*/
-    background-image: linear-gradient(90deg, #e52d27, #b31217);
+    background-color: #D91424;
     padding: 10px 20px;
 
 }
 .logo-header{
     border-radius: 10px;
 }
-.nav-link:hover{
+.logo-header:hover{
+    width: 120px;
+    height: 110px;
+    transition: 2s ease all;
+}
+.nav-link{
     font-size: 23px;
+}
+.nav-link:hover{
+    font-size: 33px;
     transition: 1s ease all;
 }
 
 
 
-.sobre{/*Section's*/
-    background-color: rgb(190, 190, 190);
+.sobre{/*Section sobre*/
+    background-color: #CCCCCC;
     color: white;
 }
-.historia{
-    background-color: rgb(240, 46, 46);
+.rounded-circle{
+    margin-bottom: 30px;
+    width: 30%;
+    height: 30%;
+}
+.rounded-circle:hover{
+    width: 35%;
+    height: 35%;
+    transition: 2s ease all;
+}
+
+
+
+.historia{/*Section historia*/
+    background-color: #D91424;
     color: white;
 }
 .img-historia{
     max-width: 60%;
     padding: 10px;
 }
+.img-historia:hover{
+    max-width: 70%;
+    transition: 2s ease all;
+}
 .title{
     padding: 10px;
     font-weight: 700;
+}
+.img-final-historia{
+    padding: 15px;
+    border-radius: 25px;
+    max-width: 100%;
+}
+.subtitle-img-historia{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+
+
+.titulos{/*Section titulos*/
+    background-color: #CCCCCC;
+    color: white;
+}
+.img-titulos{
+    margin: 20px;
+    width: 100%;
+    height: 90%;
+    border-radius: 5px;
+}
+.img-titulos:hover{
+    width: 103%;
+    height: 93%;
+    transition: 2s ease all;
+}
+.table{
+    margin-top: 30px;
+}
+
+
+.title-main{/*Classes gerais*/
+    font-size: 50px;
 }
 h6{
     text-align: justify;
     margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
-    font-size: 17px;
+    font-size: 19px;
 }
-
-.titulos{
-    background-color: rgb(190, 190, 190);
-    color: white;
-}
-.title-main{
-    font-size: 50px;
-}
-
-
-
 .margin{/*Margin geral*/
     padding-top: 30px;
     padding-bottom: 30px;
@@ -70,7 +120,7 @@ footer{/*Footer configs*/
     padding: 15px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
+    font-size: 23px;
 }
 p{
     margin: 0px;
